@@ -1,0 +1,29 @@
+.card {
+  width: 100%;
+}
+
+.imagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagem > img {
+  max-width: 80%;
+  height: 15em;
+}
+
+.content {
+  margin-top: 0.3em;
+  text-align: center;
+}
+.content > h2 {
+  margin-top: 0.3em;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.content > p {
+  color: grey;
+  margin-top: 0.3em;
+}

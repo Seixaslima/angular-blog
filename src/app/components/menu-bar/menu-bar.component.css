@@ -1,0 +1,25 @@
+.linkList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.linkList li {
+  margin: 0;
+}
+
+.linkList > li + li::before {
+  content: "•";
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
