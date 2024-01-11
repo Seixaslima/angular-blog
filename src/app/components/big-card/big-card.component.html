@@ -1,9 +1,11 @@
 <section class="card">
-  <div class="imagem">
-    <img src="{{ imagemSrc }}" alt="" />
-  </div>
-  <div class="content">
-    <h2>{{ cardTitle }}</h2>
-    <p>{{ cardDescription }}</p>
-  </div>
+  <a routerLink="/content/{{ id }}">
+    <div class="imagem">
+      <img src="{{ imagemSrc }}" alt="" />
+    </div>
+    <div class="content">
+      <h2>{{ cardTitle }}</h2>
+      <p>{{ cardDescription }}</p>
+    </div>
+  </a>
 </section>

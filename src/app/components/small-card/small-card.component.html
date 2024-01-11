@@ -1,8 +1,12 @@
 <section class="container">
-  <div class="imagem">
-    <img src="{{ imageURL }}" alt="" />
-  </div>
-  <div class="title">
-    <h2>{{ cardTitle }}</h2>
-  </div>
+  <a routerLink="/content/{{ id }}">
+    <div class="imagem">
+      <img src="{{ imageURL }}" alt="" />
+    </div>
+  </a>
+  <a routerLink="/content/{{ id }}">
+    <div class="title">
+      <h2>{{ cardTitle }}</h2>
+    </div>
+  </a>
 </section>
